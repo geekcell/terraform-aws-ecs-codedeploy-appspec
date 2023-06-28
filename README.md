@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/template-terraform-module/main/docs/assets/logo.svg)](https://www.geekcell.io/)
+[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/.github/main/geekcell-github-banner.png)](https://www.geekcell.io/)
 
 ### Code Quality
 [![License](https://img.shields.io/github/license/geekcell/terraform-aws-ecs-codedeploy-appspec)](https://github.com/geekcell/terraform-aws-ecs-codedeploy-appspec/blob/master/LICENSE)
@@ -75,7 +75,7 @@ https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-e
 - resource.aws_ssm_parameter.main (main.tf#44)
 
 # Examples
-### Full
+### Min
 ```hcl
 resource "aws_ecs_service" "example" {
   name             = "example"
